@@ -1,0 +1,1422 @@
+fileFormatVersion: 2
+guid: 6ae96544cd041ea4c8e971ad325791ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snow-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bda5d5d0140b6488b6504b2a298636
+      internalID: -138876850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-edge-vertical-left
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccdd70437ce7a48bb6ce7e5aafab1e
+      internalID: 446220379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-edge-vertical-right
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52364c4c5b5f8a4082484a495e24569
+      internalID: 134927731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path-center-0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67998ac0b3d0dc646833aaa76d16d854
+      internalID: 1303418637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040e02e0952ba1d4faa47ae7fee1737e
+      internalID: 2089297805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-tree-0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3165c424465de3b428b0b41c67e1210a
+      internalID: 1847790983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-shrub-0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f37b42cd117ab439b52fec0ab935f4
+      internalID: -1583954531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-tree-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298d7e51718283240a20edafced0fd96
+      internalID: 241548617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-tree-2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92865483160014a46b977d85f143ccef
+      internalID: -1056033355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c209ce0fd171424a91ae65ff14f50ba
+      internalID: -1076918331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a08716cc4783da4c91801ab812fdc23
+      internalID: 1732987000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9567178d24e9f3249bbb45045696fc28
+      internalID: 1576546143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3502135eebf340b43b131e189d99850e
+      internalID: 1025003607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d50ceb5259f4a3418e061499a110872
+      internalID: 1545370429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-slice-botright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fe3a183b042354f821bf69f8251fd1
+      internalID: 1577262727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-slice-botleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b39a424ad6b304e9e9491fe7cc1f1a
+      internalID: -263136558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-slice-topleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c193375ca46f843a4cb2b18a556604
+      internalID: 1682552316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-slice-topright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d1f5219b787a440ac706e217cd8033
+      internalID: 150265630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-expandedge-botright
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de551e5fa6870df4989cb797100ffde4
+      internalID: 1762945335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-expandedge-botleft
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eadc41ba9c82842952405f366a8faa
+      internalID: -1144972671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-curve-topright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d5aa50e93aff4ba007b8b4ff6a4d1
+      internalID: 1633549849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-curve-botright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6380e948ae09d9948ab5818772a15553
+      internalID: -2004953637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-curve-botleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca456ca8192a14287a053c32c89a5e
+      internalID: 1429488149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-curve-topleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2cf84ea9101b643a3f800390804f39
+      internalID: -607927818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-arc-botright
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06df16b546752147962f34a2d701248
+      internalID: 301295959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-arc-topright
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e579d3186b8c4c4cad712655442986d
+      internalID: -348024117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-arc-topleft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8be5cbab1aa69e42b31bd8f30c259bc
+      internalID: 1736107656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-arc-botleft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19e04a4b1f21df4989153c4cce86daa
+      internalID: -437306116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-corneredge-topright
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9368f310838843ac44056aaf72514
+      internalID: -2064706635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-corneredge-botright
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca156cc83319744bd91dd6369363f5
+      internalID: -1151740332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-corneredge-botleft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452a817f6a0da2a4dbb49861b7f36f47
+      internalID: -427807008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-corneredge-topleft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e328728e5f8245a8424bf612c5a43
+      internalID: 540860885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a5ccc40f3541f46bd13c6b178afaf1
+      internalID: -648483040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878f516fff27d041bd455b8a1707ba7
+      internalID: 2119339953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-expandedge-topleft
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcefbe7926449bf478584df3b735f8e6
+      internalID: -312249587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-expandedge-topright
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293bd1d53eed5b544986efc606192663
+      internalID: -1779317107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14608148a091dcf49ad3a241e26398e2
+      internalID: -1582881372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae405c0bb5d6b3d4f8b9f9a8f6f044f4
+      internalID: -332778227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e7c2502b7cc094d9ca088486625e2c
+      internalID: -1509977471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c84808ca5104f04c93b2c0820cc7a14
+      internalID: -763174113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-edge-horizontal-top
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a3525c411c054bbd06da1192ab6d9
+      internalID: -1970427958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-edge-horizontal-bot
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440fcf34a343c3a49962c6e29aac607c
+      internalID: 688663946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-tinycorner-topleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d174ed4a91d943ba7bc7cb8498cdf
+      internalID: -188301818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-tinycorner-topright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 153
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaf57877289e714f972c25ddc242817
+      internalID: 950969736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-tinycorner-botleft
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b684d79358606024c89eb3c220e6ea17
+      internalID: -164909804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice-tinycorner-botright
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de61c8f083c094c439173eb4a5d9d55f
+      internalID: -1579312564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d810356a34b5a44e82354653e258a1f
+      internalID: -599356654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large-tree-0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 153
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9671e244c5546db49a95771a0c55517b
+      internalID: 827761644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: empty
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cfcfe2c884a784f902c15d848683d3
+      internalID: 2118918941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d39b0d9786ed5145999876b62485288
+      internalID: -2046820985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stump-0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf8453c319e2848be95a21e7014c2b
+      internalID: -133166133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c239bb80a3eed47b0c4cf3d4ecbc8e
+      internalID: -135818159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-ramp-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb9d4b127d70fe4194954af90e53202
+      internalID: 165883384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6144893698b88b44bb3bdda72d6748fb
+      internalID: 739907790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8d96e62bda31b4ca572024283d1908
+      internalID: 499892855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed92efb5ce606145b7390332525be40
+      internalID: 970225608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large-ramp-left-0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7b487cff31f748ba51f2fc24890b8
+      internalID: 509694470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large-ramp-right-0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b12e56cd58a3dd4683031b409553b97
+      internalID: 975829922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359edaa9f7d70d47acf4f3eea452c7d
+      internalID: 2071803873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      empty: 2118918941
+      ice-arc-botleft: -437306116
+      ice-arc-botright: 301295959
+      ice-arc-topleft: 1736107656
+      ice-arc-topright: -348024117
+      ice-corneredge-botleft: -427807008
+      ice-corneredge-botright: -1151740332
+      ice-corneredge-topleft: 540860885
+      ice-corneredge-topright: -2064706635
+      ice-curve-botleft: 1429488149
+      ice-curve-botright: -2004953637
+      ice-curve-topleft: -607927818
+      ice-curve-topright: 1633549849
+      ice-edge-horizontal-bot: 688663946
+      ice-edge-horizontal-top: -1970427958
+      ice-edge-vertical-left: 446220379
+      ice-edge-vertical-right: 134927731
+      ice-expandedge-botleft: -1144972671
+      ice-expandedge-botright: 1762945335
+      ice-expandedge-topleft: -312249587
+      ice-expandedge-topright: -1779317107
+      ice-slice-botleft: -263136558
+      ice-slice-botright: 1577262727
+      ice-slice-topleft: 1682552316
+      ice-slice-topright: 150265630
+      ice-tinycorner-botleft: -164909804
+      ice-tinycorner-botright: -1579312564
+      ice-tinycorner-topleft: -188301818
+      ice-tinycorner-topright: 950969736
+      large-ramp-left-0: 509694470
+      large-ramp-right-0: 975829922
+      large-tree-0: 827761644
+      path-center-0: 1303418637
+      small-ramp-0: 165883384
+      small-shrub-0: -1583954531
+      small-tree-0: 1847790983
+      small-tree-1: 241548617
+      small-tree-2: -1056033355
+      snow-0: -138876850
+      stump-0: -133166133
+      tilemap_0: 2089297805
+      tilemap_1: -2046820985
+      tilemap_2: 2071803873
+      tilemap_28: -648483040
+      tilemap_29: 2119339953
+      tilemap_32: -1582881372
+      tilemap_33: -332778227
+      tilemap_34: -1509977471
+      tilemap_35: -763174113
+      tilemap_4: -135818159
+      tilemap_42: -599356654
+      tilemap_44: 739907790
+      tilemap_45: 499892855
+      tilemap_46: 970225608
+      tilemap_5: -1076918331
+      tilemap_6: 1732987000
+      tilemap_7: 1576546143
+      tilemap_8: 1025003607
+      tilemap_9: 1545370429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
