@@ -4,6 +4,7 @@
 There is no UI structure, health / score system, menus, goals, rewards, or any meaningful gameplay.
 This is all coming soon.
 - It does contain full player control, partial asset management, sounds, and randomly generated levels.
+- ![Alt text](https://i.imgur.com/w9TD97N.mp4)
  
 # How to Play
  1. Load up the only scene right now, SampleScene.
