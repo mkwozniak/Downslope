@@ -1,10 +1,9 @@
-# Downslope
- Unity2D Arcade Skiing Game
- THIS GAME IS NOT FULLY COMPLETE
- In its current state, it is a demo of the game mechanics which can be played infinitely.
- There is no UI structure, health / score system, menus, goals, rewards, or any meaningful gameplay.
- This is all coming soon.
- It does contain full player control, partial asset management, sounds, and randomly generated levels.
+# Downslope - Unity2D Arcade Skiing Game
+- THIS GAME IS NOT FULLY COMPLETE
+- In its current state, it is a demo of the game mechanics which can be played infinitely.
+There is no UI structure, health / score system, menus, goals, rewards, or any meaningful gameplay.
+This is all coming soon.
+- It does contain full player control, partial asset management, sounds, and randomly generated levels.
  
 # How to Play
  1. Load up the only scene right now, SampleScene.
