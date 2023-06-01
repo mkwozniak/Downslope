@@ -4,7 +4,7 @@
 There is no UI structure, health / score system, menus, goals, rewards, or any meaningful gameplay.
 This is all coming soon.
 - It does contain full player control, partial asset management, sounds, and randomly generated levels.
-- ![Quick Preview](https://media3.giphy.com/media/FmQvVmGeirrGF7YkuU/giphy.gif)
+![MangoFog2D Preview GIF](https://media.giphy.com/media/FLxSx84xDssvXK2JFr/giphy.gif)
  
 # How to Play
  1. Load up the only scene right now, SampleScene.
@@ -23,12 +23,12 @@ This is all coming soon.
 
 # Credits
 Discrete Distributed Random implementation credits to jwez7185 from this article:
-http://jwezorek.com/2014/10/discretely-distributed-random-numbers-in-c/
+- http://jwezorek.com/2014/10/discretely-distributed-random-numbers-in-c/
 
 The rest of the code is written by me.
 
 The sprites are originally released by Kenney under CC0, with some modifications and additions by me.
-https://www.kenney.nl/assets/tiny-ski
+- https://www.kenney.nl/assets/tiny-ski
 
 The sounds are from various SSX games that I sliced and then filtered through a bit reduction vst. (BitCrusher)
  
