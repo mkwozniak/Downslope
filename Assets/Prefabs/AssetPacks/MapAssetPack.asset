@@ -1,0 +1,1017 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ff210db61460e418395a2400feb884, type: 3}
+  m_Name: MapAssetPack
+  m_EditorClassIdentifier: 
+  SlopeAngleDataList:
+  - AngleType: 0
+    ForwardSpeed: 0.18
+    ForwardAccel: 0.001875
+  - AngleType: 1
+    ForwardSpeed: 0.18
+    ForwardAccel: 0.001875
+  - AngleType: 2
+    ForwardSpeed: 0.18
+    ForwardAccel: 0.001875
+  - AngleType: 3
+    ForwardSpeed: 0.22
+    ForwardAccel: 0.0028125
+  - AngleType: 4
+    ForwardSpeed: 0.25
+    ForwardAccel: 0.0028125
+  ClearMapData:
+    Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 0
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    - Name: 
+      Weight: 0
+    WorldEdgeWeights: []
+    WorldXOffsetWeights: []
+    IcePathSpawnWeights: []
+  MenuMapList:
+  - Name: MenuMap
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 12
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: SmallTree
+      Weight: 32
+    - Name: LargeTree
+      Weight: 32
+    - Name: Shrub
+      Weight: 32
+    - Name: Stump
+      Weight: 32
+    - Name: FlagStart
+      Weight: 1
+    - Name: FlagEnd
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 12
+    - Name: SmallTree
+      Weight: 32
+    - Name: LargeTree
+      Weight: 32
+    - Name: Stump
+      Weight: 32
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: Empty
+      Weight: 128
+    WorldEdgeWeights:
+    - Name: Flat
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 1
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1
+  TutorialMapList:
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  - Name: 
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights:
+    - Name: Empty
+      Weight: 256
+    - Name: Shrub
+      Weight: 8
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 1000
+    - Name: Path
+      Weight: 1
+  BeginnerArcadeMapList:
+  - Name: Bunny Hill
+    MusicID: 3
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 10
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: SmallTree
+      Weight: 2
+    - Name: Stump
+      Weight: 4
+    - Name: SmallRampSnow
+      Weight: 2
+    - Name: Shrub
+      Weight: 12
+    IceObstacleWeights: []
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Flat
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 1
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 50
+  - Name: Winding Willows
+    MusicID: 9
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 6
+    MinWorldEdgeSize: 6
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: SmallTree
+      Weight: 2
+    - Name: Stump
+      Weight: 4
+    - Name: Shrub
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Flat
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Left
+      Weight: 64
+    - Name: Right
+      Weight: 64
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 50
+  - Name: Leisure Lane
+    MusicID: 3
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 10
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: SmallTree
+      Weight: 2
+    - Name: Stump
+      Weight: 4
+    - Name: SmallRampSnow
+      Weight: 2
+    - Name: Shrub
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 32
+    - Name: Contract
+      Weight: 64
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Left
+      Weight: 24
+    - Name: Right
+      Weight: 24
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 50
+  - Name: Gnarly Hill
+    MusicID: 4
+    Identity:
+      AngleType: 1
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 6
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 100
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 25
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Expand
+      Weight: 4
+    - Name: Contract
+      Weight: 16
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Left
+      Weight: 32
+    - Name: Right
+      Weight: 32
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+  - Name: Ice Capades
+    MusicID: 5
+    Identity:
+      AngleType: 2
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 6
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 12
+    - Name: SmallTree
+      Weight: 32
+    - Name: LargeTree
+      Weight: 32
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 100
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 5
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 16
+  - Name: Fetchers Run
+    MusicID: 6
+    Identity:
+      AngleType: 2
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 10
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 12
+    - Name: SmallTree
+      Weight: 54
+    - Name: LargeTree
+      Weight: 24
+    - Name: Stump
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 50
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 2
+  - Name: The Glades
+    MusicID: 7
+    Identity:
+      AngleType: 3
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 8
+    MinWorldEdgeSize: 8
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 18
+    - Name: SmallTree
+      Weight: 54
+    - Name: LargeTree
+      Weight: 24
+    - Name: Stump
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 50
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 2
+  - Name: Carve Master
+    MusicID: 8
+    Identity:
+      AngleType: 3
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 8
+    MinWorldEdgeSize: 8
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 18
+    - Name: SmallTree
+      Weight: 54
+    - Name: LargeTree
+      Weight: 24
+    - Name: Stump
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 50
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 2
+  - Name: Speed Demon
+    MusicID: 9
+    Identity:
+      AngleType: 4
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 8
+    MinWorldEdgeSize: 8
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 18
+    - Name: SmallTree
+      Weight: 8
+    - Name: LargeTree
+      Weight: 8
+    - Name: Stump
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 50
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 2
+  - Name: Challenger
+    MusicID: 10
+    Identity:
+      AngleType: 4
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 8
+    MinWorldEdgeSize: 8
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 18
+    - Name: SmallTree
+      Weight: 8
+    - Name: LargeTree
+      Weight: 8
+    - Name: Stump
+      Weight: 24
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 50
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Left
+      Weight: 64
+    - Name: Right
+      Weight: 64
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 2
+  - Name: None2
+    MusicID: 0
+    Identity:
+      AngleType: 4
+      AngleOffset: 0
+    MaxIcePathWidth: 6
+    WorldEdgeSize: 10
+    MinWorldEdgeSize: 6
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Shrub
+      Weight: 4
+    - Name: SmallTree
+      Weight: 1
+    IceObstacleWeights: []
+    SnowVariationWeights: []
+    IcePathWeights:
+    - Name: Flat
+      Weight: 100
+    - Name: Expand
+      Weight: 25
+    - Name: Contract
+      Weight: 25
+    - Name: Turn
+      Weight: 25
+    - Name: End
+      Weight: 25
+    WorldEdgeWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: Expand
+      Weight: 4
+    - Name: Contract
+      Weight: 16
+    WorldXOffsetWeights:
+    - Name: Flat
+      Weight: 128
+    - Name: Left
+      Weight: 32
+    - Name: Right
+      Weight: 32
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 512
+    - Name: Path
+      Weight: 16
+  - Name: Test
+    MusicID: 0
+    Identity:
+      AngleType: 0
+      AngleOffset: 0
+    MaxIcePathWidth: 0
+    WorldEdgeSize: 12
+    MinWorldEdgeSize: 0
+    ObstacleWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: SmallRampSnow
+      Weight: 32
+    IceObstacleWeights: []
+    SnowVariationWeights:
+    - Name: Empty
+      Weight: 128
+    - Name: snow-variation-0
+      Weight: 64
+    IcePathWeights:
+    - Name: End
+      Weight: 512
+    - Name: Turn
+      Weight: 32
+    - Name: Contract
+      Weight: 20
+    - Name: Expand
+      Weight: 20
+    - Name: End
+      Weight: 5
+    - Name: Flat
+      Weight: 2
+    WorldEdgeWeights:
+    - Name: Flat
+      Weight: 128
+    WorldXOffsetWeights:
+    - Name: Empty
+      Weight: 1
+    IcePathSpawnWeights:
+    - Name: Empty
+      Weight: 50
+    - Name: Path
+      Weight: 10

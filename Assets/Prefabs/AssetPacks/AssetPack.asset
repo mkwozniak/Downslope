@@ -1,0 +1,616 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bed8be02c59c054ea9c5bd6ca22e21f, type: 3}
+  m_Name: AssetPack
+  m_EditorClassIdentifier: 
+  AnimatorControllers:
+  - {fileID: 0}
+  - {fileID: 9100000, guid: 319eae5de8902e3438254d8db6f380ef, type: 2}
+  SFXPrefab: {fileID: 1555812266232404852, guid: 546fc52d4d2483d4597779b961cb7402, type: 3}
+  ChunkPrefab: {fileID: -1334181185392946121, guid: 8962ac2891ed7704187955e10495284c, type: 3}
+  PowderSnowFX: {fileID: 5615869192160813679, guid: 2437bc3e7c3b1314b88895ecd16b4706, type: 3}
+  SmallTreeSnowFX: {fileID: 5721826098095845667, guid: 69c18d9001cf0c648bc7b15f85b3d3a4, type: 3}
+  UI_LevelCreatorPlacementChoice: {fileID: 877884683242532976, guid: f8ce1dcc08e70514a85449789133ceff, type: 3}
+  UI_LevelCreatorSaveEntry: {fileID: 7646161436401875264, guid: 3a45c638385b97e4f9de958c6c71f189, type: 3}
+  UI_LevelCreatorLoadEntry: {fileID: 79875848089534244, guid: bca186de42cb06b4dae590aa95dd195f, type: 3}
+  LevelCreator_PlacementObject: {fileID: 8597881602936665374, guid: 6c008507f1b70024ba13265239ff2f2c, type: 3}
+  Obstacles:
+  - Name: Empty
+    ParentID: 0
+    SpriteID: empty
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 0
+    ColliderData:
+      Name: 
+      Size: {x: 0, y: 0}
+      Offset: {x: 0, y: 0}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: Shrub
+    ParentID: 0
+    SpriteID: shrub-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 2
+    ColliderData:
+      Name: Shrub
+      Size: {x: 0.75, y: 0.35}
+      Offset: {x: 0, y: -0.25}
+    HasCollisionSpeedPenalty: 1
+    CollisionSpeedPenalty: 0.95
+    SFXOnCollision: 1
+    CollisionSFXID: PlayerHitShrub0
+    PFXOnCollision: 1
+    CollisionPFXID: PowderFX
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 1
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 2
+    SizeLOSY: 2
+  - Name: SmallTree
+    ParentID: 0
+    SpriteID: tree-small-0
+    AnimatorControllerID: 1
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 1
+    CollisionType: 3
+    ColliderData:
+      Name: SmallTree
+      Size: {x: 0.5, y: 0.5}
+      Offset: {x: 0, y: 0.25}
+    HasCollisionSpeedPenalty: 1
+    CollisionSpeedPenalty: 0.75
+    SFXOnCollision: 1
+    CollisionSFXID: PlayerHitTree1
+    PFXOnCollision: 1
+    CollisionPFXID: SmallTreeFX
+    IsCenterCollidable: 1
+    CenterCollisionDistance: 0.4
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 1
+    StunDuration: 0
+    SFXOnCenterCollision: 1
+    CenterCollisionSFXID: PlayerHitTree0
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 2
+    SizeLOSY: 4
+  - Name: LargeTree
+    ParentID: 0
+    SpriteID: tree-large-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 1
+    Impassable: 1
+    CollisionType: 4
+    ColliderData:
+      Name: LargeTree
+      Size: {x: 0.5, y: 0.5}
+      Offset: {x: 0, y: 0.25}
+    HasCollisionSpeedPenalty: 1
+    CollisionSpeedPenalty: 0.75
+    SFXOnCollision: 1
+    CollisionSFXID: PlayerHitTree1
+    PFXOnCollision: 1
+    CollisionPFXID: SmallTreeFX
+    IsCenterCollidable: 1
+    CenterCollisionDistance: 0.5
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 1
+    StunDuration: 0
+    SFXOnCenterCollision: 1
+    CenterCollisionSFXID: PlayerHitTree0
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 1
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles:
+    - LargeTreeTop
+    SizeLOSX: 3
+    SizeLOSY: 6
+  - Name: Stump
+    ParentID: 0
+    SpriteID: stump-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 6
+    ColliderData:
+      Name: Shrub
+      Size: {x: 0.75, y: 0.35}
+      Offset: {x: 0, y: -0.25}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 1
+    IsSoftJump: 1
+    ForwardRampPower: 0.4
+    VerticalRampPower: 10
+    VerticalRampMax: 0.1
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: Rock
+    ParentID: 0
+    SpriteID: large-ramp-snow-right-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 7
+    ColliderData:
+      Name: SmallRamp
+      Size: {x: 0.9, y: 0.25}
+      Offset: {x: 0, y: -0.25}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 1
+    IsSoftJump: 0
+    ForwardRampPower: 1.5
+    VerticalRampPower: 1
+    VerticalRampMax: 0.55
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: SmallRampSnow
+    ParentID: 0
+    SpriteID: ramp-small-snow-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 5
+    ColliderData:
+      Name: SmallRamp
+      Size: {x: 0.9, y: 0.25}
+      Offset: {x: 0, y: -0.75}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 1
+    IsSoftJump: 0
+    ForwardRampPower: 1
+    VerticalRampPower: 1.5
+    VerticalRampMax: 0.45
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: LargeRampSnow
+    ParentID: 0
+    SpriteID: ramp-large-snow-left-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 7
+    ColliderData:
+      Name: SmallRamp
+      Size: {x: 0.9, y: 0.25}
+      Offset: {x: 0, y: -0.25}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 1
+    IsSoftJump: 0
+    ForwardRampPower: 1.5
+    VerticalRampPower: 1
+    VerticalRampMax: 0.55
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 1
+    RightExtendedObstacles:
+    - LargeRampSnowR
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: LargeRampSnowR
+    ParentID: 0
+    SpriteID: ramp-large-snow-right-0
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 1
+    Impassable: 0
+    CollisionType: 7
+    ColliderData:
+      Name: SmallRamp
+      Size: {x: 0.9, y: 0.25}
+      Offset: {x: 0, y: -0.25}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 1
+    IsSoftJump: 0
+    ForwardRampPower: 1.5
+    VerticalRampPower: 1
+    VerticalRampMax: 0.55
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: FlagStart
+    ParentID: 0
+    SpriteID: flag-start
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 0
+    ColliderData:
+      Name: 0
+      Size: {x: 0, y: 0}
+      Offset: {x: 0, y: 0}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  - Name: FlagEnd
+    ParentID: 0
+    SpriteID: flag-end
+    AnimatorControllerID: 0
+    Offset: {x: 0, y: 0, z: 0}
+    Obstrusive: 0
+    Impassable: 0
+    CollisionType: 0
+    ColliderData:
+      Name: 0
+      Size: {x: 0, y: 0}
+      Offset: {x: 0, y: 0}
+    HasCollisionSpeedPenalty: 0
+    CollisionSpeedPenalty: 0
+    SFXOnCollision: 0
+    CollisionSFXID: 
+    PFXOnCollision: 0
+    CollisionPFXID: 
+    IsCenterCollidable: 0
+    CenterCollisionDistance: 0
+    CenterCollisionSpeedPenalty: 0
+    StunOnCenterCollision: 0
+    StunDuration: 0
+    SFXOnCenterCollision: 0
+    CenterCollisionSFXID: 
+    PFXOnCenterCollision: 0
+    CenterCollisionPFXID: 
+    IsRamp: 0
+    IsSoftJump: 0
+    ForwardRampPower: 0
+    VerticalRampPower: 0
+    VerticalRampMax: 0
+    AirCollidable: 0
+    OnlyAirCollidable: 0
+    DestroyOnCollision: 0
+    RightExtendedObstacle: 0
+    RightExtendedObstacles: []
+    TopExtendedObstacle: 0
+    TopExtendedObstacles: []
+    SizeLOSX: 0
+    SizeLOSY: 0
+  Music:
+  - {fileID: 8300000, guid: 2d63bf32c96454c44b677548a9afa3b8, type: 3}
+  - {fileID: 8300000, guid: 572bac2833e79e14f9fdb8178729f64f, type: 3}
+  - {fileID: 8300000, guid: 4be165703e506fb4fb6eb5c08f678f5f, type: 3}
+  - {fileID: 8300000, guid: 474715d528f9ddf4a84fbd3db4c3f259, type: 3}
+  - {fileID: 8300000, guid: 72cbedfabf2ebee49b80195e93b93586, type: 3}
+  - {fileID: 8300000, guid: dee5d25fcf5288941b06b683739bce16, type: 3}
+  - {fileID: 8300000, guid: 52120e0e0f01cd54da0c9f22eefb8860, type: 3}
+  - {fileID: 8300000, guid: 206a5eaf7a0cb9c45a8b34fb00620760, type: 3}
+  - {fileID: 8300000, guid: a3014d4827b89674f90370cb84d3e718, type: 3}
+  - {fileID: 8300000, guid: d4d24984442cfa644a9749bdf18c3442, type: 3}
+  - {fileID: 8300000, guid: b7d7c1d5aefd91b4f9e68d7933e812b5, type: 3}
+  AmbientSounds: []
+  SFXList:
+  - Name: ChallengeSuccess
+    Clips:
+    - {fileID: 8300000, guid: bd61b5668eb553b4d994f296d30943b3, type: 3}
+  - Name: PlayerHitIceTerrain0
+    Clips:
+    - {fileID: 8300000, guid: 44f0d4a7dcee060478329e253a80af8f, type: 3}
+    - {fileID: 8300000, guid: edd1c6116e2ff404fa43b69eec995197, type: 3}
+    - {fileID: 8300000, guid: eebe9e2783e2ac540a1ebc26dff057d4, type: 3}
+  - Name: PlayerHitPowder0
+    Clips:
+    - {fileID: 8300000, guid: 247a1dff6b8f314449fcb9e0904a095e, type: 3}
+  - Name: PlayerHitJump0
+    Clips:
+    - {fileID: 8300000, guid: e152409bb1f833f49bc0a90b84183543, type: 3}
+  - Name: PlayerLandJump0
+    Clips:
+    - {fileID: 8300000, guid: fa068fff59005e34392d7f1a41ca73ce, type: 3}
+  - Name: PlayerHitTree0
+    Clips:
+    - {fileID: 8300000, guid: c85427432465e9f4eb3128ed7638d461, type: 3}
+  - Name: PlayerHitTree1
+    Clips:
+    - {fileID: 8300000, guid: 6c77b9ebb4cc28e48ad1f74f5d900b21, type: 3}
+  - Name: PlayerHitShrub0
+    Clips:
+    - {fileID: 8300000, guid: 87f6f365f21560843bb49bb220d0a163, type: 3}
+  - Name: PlayerHitCollectable
+    Clips:
+    - {fileID: 8300000, guid: 809a89dacd71f6845a7585bc30b52353, type: 3}
+  - Name: PlayerHitJumpSoft0
+    Clips:
+    - {fileID: 8300000, guid: c24b1faafe9634a47a33f256036c54ec, type: 3}
+  - Name: PlayerLandJumpSoft0
+    Clips:
+    - {fileID: 8300000, guid: 0f492eca651f21b4a96d50fd3eece637, type: 3}
+  - Name: UIOptionSelect
+    Clips:
+    - {fileID: 8300000, guid: 7c2902734142ba4448a315bb572cb11a, type: 3}
+  - Name: UIOptionHover
+    Clips:
+    - {fileID: 8300000, guid: fa893f0776ca52d409a7d3ac776c32e0, type: 3}
+  - Name: UIOptionCancel
+    Clips:
+    - {fileID: 8300000, guid: 89a00b961c532164ab20169921f158da, type: 3}
+  - Name: Voice-GameOver
+    Clips:
+    - {fileID: 8300000, guid: 10bf98f1a21fc0a4ca1f10c068921b9c, type: 3}
+  PFXList:
+  - Name: PowderFX
+    FX:
+    - {fileID: 5615869192160813713, guid: 2437bc3e7c3b1314b88895ecd16b4706, type: 3}
+  - Name: SmallTreeFX
+    FX:
+    - {fileID: 5721826098095845853, guid: 69c18d9001cf0c648bc7b15f85b3d3a4, type: 3}
+  LevelCreatorPlaceables:
+  - DisplayName: Shrub
+    SpriteID: shrub-0
+    PlacementID: shrub
+    IconID: shrub-0
+    LayerType: 2
+    ObjectType: 0
+  - DisplayName: Stump
+    SpriteID: stump-0
+    PlacementID: stump
+    IconID: stump-0
+    LayerType: 2
+    ObjectType: 0
+  - DisplayName: Small Tree
+    SpriteID: tree-small-0
+    PlacementID: small-tree
+    IconID: tree-small-0
+    LayerType: 2
+    ObjectType: 0
+  - DisplayName: Large Tree
+    SpriteID: tree-large-0
+    PlacementID: tree-large-0
+    IconID: tree-large-0
+    LayerType: 2
+    ObjectType: 0
+  - DisplayName: Snowy Ground 0
+    SpriteID: snow-variation-0
+    PlacementID: snow-variation
+    IconID: snow-variation-0
+    LayerType: 0
+    ObjectType: 0
+  - DisplayName: Obstacle Eraser
+    SpriteID: empty
+    PlacementID: erase-obstacle
+    IconID: empty
+    LayerType: 2
+    ObjectType: 1
+  - DisplayName: Start Point
+    SpriteID: flag-start
+    PlacementID: start-point
+    IconID: flag-start
+    LayerType: 5
+    ObjectType: 2
+  - DisplayName: End Point
+    SpriteID: flag-end
+    PlacementID: end-point
+    IconID: flag-end
+    LayerType: 5
+    ObjectType: 3
+  _icePathStartingPrefabs:
+  - {fileID: 9175582892102322976, guid: 86c7b96bedb055e4b938a29a7f6bcf18, type: 3}
+  _icePathPrefabs:
+  - {fileID: 9175582892102322976, guid: 86c7b96bedb055e4b938a29a7f6bcf18, type: 3}
+  - {fileID: 8474383659492279489, guid: 3e97362dcd877374abda49d3f3156c52, type: 3}
+  - {fileID: 6224642264770932022, guid: fad3bbb8eca5dbf4dbfff64d599b0ca7, type: 3}
+  - {fileID: 5273159827096619737, guid: dbc8cb313984e2840ac22c22f04e1948, type: 3}
+  - {fileID: 8610243267596626617, guid: 7367e02ec722e63429c3d3bbfa0a2c9b, type: 3}
+  - {fileID: 5252866551586352888, guid: 97e53f1153345ba4baaa42704ad68721, type: 3}
+  - {fileID: 1979963159370441185, guid: 02c16999bcc26a448bf89b541b400309, type: 3}
+  - {fileID: 6642777226130809901, guid: 822eb8ca1b1a3024dbbccf8b0493ae1f, type: 3}
+  - {fileID: 2877398898279977177, guid: 77710db16b9f64d44ab2655aa8e810aa, type: 3}
+  - {fileID: 968698362637327124, guid: 85f2ce322f44e024e8354ca271aeca65, type: 3}
+  - {fileID: 6230369985744825011, guid: e3d368ab88f941a49ba9a02aa64d6592, type: 3}
+  _playerTrailSprites:
+  - {fileID: 1025003607, guid: 6ae96544cd041ea4c8e971ad325791ad, type: 3}
+  - {fileID: 21300000, guid: 1444f77e062bbbf49a884f3e0593829a, type: 3}
+  - {fileID: 1545370429, guid: 6ae96544cd041ea4c8e971ad325791ad, type: 3}
+  - {fileID: -2046820985, guid: 6ae96544cd041ea4c8e971ad325791ad, type: 3}
+  - {fileID: 21300000, guid: ce802fcfde3f19b49931f1d3f32f1661, type: 3}

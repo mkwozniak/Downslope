@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66ad08928ea0014c9afc40b8ed79281, type: 3}
+  m_Name: SpriteAssetPack
+  m_EditorClassIdentifier: 
+  ErrorSprite:
+    Name: error
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1556816785, guid: c7ed228ac9b48024fa764a377f43f13d, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  ObstacleSpriteList:
+  - Name: empty
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 969876192, guid: c7ed228ac9b48024fa764a377f43f13d, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: tree-small-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1149063988, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    HitAnimation:
+    - FrameTime: 0.1
+      Sprite: {fileID: 647496046, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -259200084, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -721175867, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -818439059, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -1627790629, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    DestroyedAnimation: []
+  - Name: tree-large-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -292143108, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    HitAnimation:
+    - FrameTime: 0.1
+      Sprite: {fileID: -1429180683, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -1104831724, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: -284103578, guid: 9b0194fca3062d3409a034c45277ed86, type: 3}
+    DestroyedAnimation: []
+  - Name: shrub-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -44688317, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    HitAnimation: []
+    DestroyedAnimation:
+    - FrameTime: 0.1
+      Sprite: {fileID: 1390944189, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 1551828569, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 1039629298, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+  - Name: stump-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -1569019327, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: ramp-small-snow-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -1873016063, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: ramp-large-snow-left-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1733353546, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: ramp-large-snow-right-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1122884092, guid: d86b8c5a9e7553342be8573929015e4a, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  GroundSpriteList:
+  - Name: snow-variation-0
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -599356654, guid: 6ae96544cd041ea4c8e971ad325791ad, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-snow-straight
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 430444657, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-snow-carve
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1655375545, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-snow-aftercarve
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -118041312, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-ice-straight
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -1791971936, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-ice-carve
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: 1723665286, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: trail-ice-aftercarve
+    DefaultAnimation:
+    - FrameTime: 0
+      Sprite: {fileID: -210225055, guid: 5966a46d13e56854eacb3cb1863a0a08, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  ArchitectureSpriteList:
+  - Name: flag-start
+    DefaultAnimation:
+    - FrameTime: 0.1
+      Sprite: {fileID: -781015631, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 237870960, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 356212544, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []
+  - Name: flag-end
+    DefaultAnimation:
+    - FrameTime: 0.1
+      Sprite: {fileID: -406824420, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 2038605353, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    - FrameTime: 0.1
+      Sprite: {fileID: 298138688, guid: 4cfb2d097ca469b4f8c829859cd4ee19, type: 3}
+    HitAnimation: []
+    DestroyedAnimation: []

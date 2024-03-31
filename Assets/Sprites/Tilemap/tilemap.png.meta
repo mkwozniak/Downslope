@@ -77,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -198,8 +201,8 @@ TextureImporter:
         y: 84
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,8 +306,8 @@ TextureImporter:
         y: 85
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -324,8 +327,8 @@ TextureImporter:
         y: 49
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -345,8 +348,8 @@ TextureImporter:
         y: 49
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,7 +932,7 @@ TextureImporter:
       name: tilemap_35
       rect:
         serializedVersion: 2
-        x: 152
+        x: 153
         y: 136
         width: 16
         height: 16
@@ -1073,7 +1076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_42
+      name: snow-variation-0
       rect:
         serializedVersion: 2
         x: 85
@@ -1098,10 +1101,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 102
-        y: 153
+        y: 154
         width: 16
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -1206,8 +1209,8 @@ TextureImporter:
         y: 119
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1245,7 +1248,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 187
-        y: 32
+        y: 34
         width: 16
         height: 16
       alignment: 0
@@ -1266,7 +1269,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 187
-        y: 14
+        y: 17
         width: 16
         height: 16
       alignment: 0
@@ -1290,8 +1293,8 @@ TextureImporter:
         y: 85
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1311,8 +1314,8 @@ TextureImporter:
         y: 85
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1325,7 +1328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_2
+      name: rock_0
       rect:
         serializedVersion: 2
         x: 153
@@ -1333,7 +1336,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,6 +1344,111 @@ TextureImporter:
       bones: []
       spriteID: 9359edaa9f7d70d47acf4f3eea452c7d
       internalID: 2071803873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large-ramp-snow-left-0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71de32b8c0fcbe40b1c405caa0c0059
+      internalID: 359651248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large-ramp-snow-right-0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c42af962b69744ae16bcdcb855c5f
+      internalID: -139977315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-ramp-snow-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724f5c5727954ee49bde0db8d87233d2
+      internalID: 1147694929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: select-square
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad4951601f0b246885a5d4f824761f
+      internalID: -1670069812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 170
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0967ea4bcdf39d04c8a97e5b615c33b4
+      internalID: 1235177798
       vertices: []
       indices: 
       edges: []
@@ -1387,18 +1495,25 @@ TextureImporter:
       ice-tinycorner-topright: 950969736
       large-ramp-left-0: 509694470
       large-ramp-right-0: 975829922
+      large-ramp-snow-left-0: 359651248
+      large-ramp-snow-right-0: -139977315
       large-tree-0: 827761644
+      large-tree-top-0: 851959853
       path-center-0: 1303418637
+      rock_0: 2071803873
+      select-square: -1670069812
       small-ramp-0: 165883384
+      small-ramp-snow-0: 1147694929
       small-shrub-0: -1583954531
       small-tree-0: 1847790983
       small-tree-1: 241548617
       small-tree-2: -1056033355
       snow-0: -138876850
+      snow-variation-0: -599356654
       stump-0: -133166133
       tilemap_0: 2089297805
       tilemap_1: -2046820985
-      tilemap_2: 2071803873
+      tilemap_2: 1235177798
       tilemap_28: -648483040
       tilemap_29: 2119339953
       tilemap_32: -1582881372
@@ -1406,7 +1521,6 @@ TextureImporter:
       tilemap_34: -1509977471
       tilemap_35: -763174113
       tilemap_4: -135818159
-      tilemap_42: -599356654
       tilemap_44: 739907790
       tilemap_45: 499892855
       tilemap_46: 970225608

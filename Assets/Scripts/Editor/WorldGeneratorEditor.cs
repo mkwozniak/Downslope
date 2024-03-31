@@ -12,6 +12,7 @@ namespace Wozware.Downslope
 		private void OnEnable()
 		{
 			_targetInstance = (WorldGenerator)target;
+
 		}
 
 		public override void OnInspectorGUI()
