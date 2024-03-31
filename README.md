@@ -1,8 +1,15 @@
 # Downslope - Unity2D Arcade Skiing Game
 - Downslope is currently in a very early demo phase.
 - In its current state, it is a demo of the game mechanics which can be played infinitely.
-![Preview](https://wozware.net/images/downslope0.png))
- 
+![Preview](https://wozware.net/images/downslope0.png)
+
+# How to play
+- Press ENTER to start moving when in game
+- A and D to carve left and right
+- Hold SPACE to brake (You carve 50% faster while braking)
+- Hold LEFT SHIFT to Send It (You will accelerate faster)
+- Hitting large obstacles like trees will deplete your health. 
+
 # Try the demo
 You can play the demo here: 
 https://wozware.net/downslope/index.html
